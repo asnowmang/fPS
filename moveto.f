@@ -1,5 +1,5 @@
 c     PostScript moveto function     
-      SUBROUTINE MVTO(x, y)
+      SUBROUTINE MOVETO(x, y)
       INTEGER x, y
 
       PRINT 100, x, y, 'moveto'

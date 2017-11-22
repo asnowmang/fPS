@@ -1,5 +1,5 @@
 c     PostScript showpage
-      SUBROUTINE SHOWPG
+      SUBROUTINE SHOWPAGE
 
       PRINT 100, 'showpage'
  100  FORMAT(A8)

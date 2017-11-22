@@ -1,4 +1,4 @@
-      SUBROUTINE SGRAY(x)
+      SUBROUTINE SETGRAY(x)
       INTEGER x
 
       PRINT 100, '.', x, 'setgray'

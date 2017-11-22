@@ -1,5 +1,5 @@
 c     PostScript grestore
-      SUBROUTINE GREST
+      SUBROUTINE GRESTORE
 
       PRINT 100, 'grestore'
  100  FORMAT(A8)

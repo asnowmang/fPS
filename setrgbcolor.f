@@ -1,5 +1,5 @@
 c     PostScript setrgbcolor
-      SUBROUTINE SRGBC(x, y, z)
+      SUBROUTINE SETRGBCOLOR(x, y, z)
       INTEGER x, y, z
 
       PRINT 100, x, y, z, 'setrgbcolor'

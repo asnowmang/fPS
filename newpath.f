@@ -1,5 +1,5 @@
 c     PostScript newpath
-      SUBROUTINE NPATH
+      SUBROUTINE NEWPATH
 
       PRINT 100, 'newpath'
  100  FORMAT(A7)

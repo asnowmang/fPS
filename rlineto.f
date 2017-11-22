@@ -1,5 +1,5 @@
 c     PostScript rlineto
-      SUBROUTINE RLNTO(x, y)
+      SUBROUTINE RLINETO(x, y)
       INTEGER x, y
 
       PRINT 100, x, y, 'rlineto'

@@ -1,5 +1,5 @@
 c     PostScript closepath
-      SUBROUTINE CPATH
+      SUBROUTINE CLOSEPATH
 
       PRINT 100, 'closepath'
  100  FORMAT(A9)
