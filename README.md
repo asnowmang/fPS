@@ -18,8 +18,8 @@ pipe output into .ps files, e.g.
     CALL SHOWPG           showpage
 
 #### Compiling and installing the library
-Use make to build it or run the following commands. The makefile defaults to 
-/usr/lib/ for installation.
+Use make to build it or run the following commands. The makefile defaults 
+to /usr/lib/ for installation.
     % gfortran -std=legacy -c *.f
     % ar rcv fPS.a *.o
     % ranlib fPS.a
