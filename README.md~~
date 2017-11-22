@@ -9,9 +9,9 @@ pipe output into .ps files, e.g.
 % ./main > main.ps
 
 #### Example
-    Fortran 77            PostScript output
+    **Fortran 77            **PostScript output
     CALL PS               %!PS
-    CALL NLINE            newline
+    CALL NLINE	      newline
     CALL MVTO(72, 72)      72  72 moveto
     CALL LNTO(144, 144)   144 144 lineto
     CALL STROKE           stroke
