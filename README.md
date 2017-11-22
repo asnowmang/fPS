@@ -11,13 +11,13 @@ pipe output into .ps files, e.g.
 % ./main > main.ps
 
 #### Example
-Fortran 77            PostScript output
-CALL PS               %!PS
-CALL NLINE	      newline
-CALL MVTO(72, 72)      72  72 moveto
-CALL LNTO(144, 144)   144 144 lineto
-CALL STROKE           stroke
-CALL SHOWPG           showpage
+    Fortran 77            PostScript output
+    CALL PS               %!PS
+    CALL NLINE	      newline
+    CALL MVTO(72, 72)      72  72 moveto
+    CALL LNTO(144, 144)   144 144 lineto
+    CALL STROKE           stroke
+    CALL SHOWPG           showpage
 
 #### Compiling and installing the library
 Use make to build it or run the following commands. The provided makefile 
