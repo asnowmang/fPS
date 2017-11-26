@@ -2,8 +2,8 @@ SHELL   = /bin/sh
 FC	= gfortran
 FLAGS	= -std=legacy -Wall -Wextra -Wconversion -O3
 SOURCES = *.f
-TARGET  = PSLib.a
-BINDIR	= /usr/lib/
+TARGET  = fPS.a
+BINDIR	= /usr/local/lib/fPS
 
 all:
 	$(FC) $(FLAGS) -c *.f
@@ -11,10 +11,11 @@ all:
 	ranlib $(TARGET)
 
 install:
+	mkdir $(BINDIR)
 	install $(TARGET) $(BINDIR)/$(TARGET)
 
 uninstall:
-	-rm $(BINDIR)/$(TARGET)
+	-rm -rf $(BINDIR)
 
 clean:
-	-rm -f *.o PSLib.a
+	-rm -f *.o $(TARGET)
