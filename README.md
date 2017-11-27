@@ -11,12 +11,12 @@ writing programs to directly create .ps files.
     % ./main > main.ps
 
 #### Example
-    Fortran 77              PostScript output
-    CALL PS                 %!PS
+    Fortran 77            PostScript output
+    CALL PS               %!PS
     CALL NLINE            newline
     CALL MVTO(72, 144)     72 144 moveto
     CALL LNTO(144, 72)    144  72 lineto
-    CALL STROKE             stroke
+    CALL STROKE           stroke
     CALL SHOWPG           showpage
 
 #### Compiling and installing the library
