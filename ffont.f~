@@ -1,0 +1,17 @@
+      SUBROUTINE FFONT(x, y)
+c     Findfont
+c     CALL FFONT(FONT, SCALE)
+      CHARACTER*32 x
+      INTEGER y
+
+ 100  FORMAT(A1, A, A8)
+ 200  FORMAT(I4, A5)
+ 300  FORMAT(A7)
+      
+      PRINT 100, '/' x, 'findfont'
+      PRINT 200, y, 'scale'
+      PRINT 300, 'setfont'
+
+      RETURN
+      END
+      
