@@ -12,7 +12,7 @@ all:
 
 install:
 	mkdir $(BINDIR)
-	install $(TARGET) $(BINDIR)/$(TARGET)
+	install README.md $(TARGET) $(BINDIR)/
 
 uninstall:
 	-rm -rf $(BINDIR)
