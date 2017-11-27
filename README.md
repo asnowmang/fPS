@@ -7,6 +7,7 @@ was both written for practice and so I could know exactly how the library
 functioned and be able to more fully utilize it. So far I've only used it to 
 pipe output into .ps files, e.g. below, although it should also work for
 writing programs to directly create .ps files.
+
     % ./main > main.ps
 
 #### Example
