@@ -1,5 +1,5 @@
 c     PostScript setlinewidth
-      SUBROUTINE SETLINEWIDTH(x)
+      SUBROUTINE SETLW(x)
       INTEGER x
 
       PRINT 100, x, 'setlinewidth'

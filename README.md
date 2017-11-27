@@ -24,8 +24,8 @@ to /usr/lib/ for installation.
     % ar rcv fPS.a *.o
     % ranlib fPS.a
 
-#### Compiling programs that use the library (given lib file is in directory)
-    % gfortran -std=legacy main.f fPS.a -o main
+#### Compiling programs that use the library
+    % gfortran -std=legacy main.f /path/to/fPS.a -o main
 
 #### License
 This library is licensed under the ISC License. See LICENSE.md for details.

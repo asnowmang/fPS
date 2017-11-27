@@ -1,5 +1,5 @@
 c     PostScript lineto
-      SUBROUTINE LINETO(x, y)
+      SUBROUTINE LNTO(x, y)
       INTEGER x, y
 
       PRINT 100, x, y, 'lineto'
