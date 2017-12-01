@@ -18,7 +18,7 @@ writing programs to directly create .ps files.
     CALL LNTO(144, 72)    144  72 lineto
     CALL STROKE           stroke
     CALL SHOWPG           showpage
-    CALL PSEOF        %%EOF
+    CALL PSEOF            %%EOF
     
 #### Compiling and installing the library
 Use make to build it or run the following commands. The makefile defaults 
