@@ -1,12 +1,12 @@
 SHELL   = /bin/sh
 FC	= gfortran
 FLAGS	= -std=legacy -Wall -Wextra -Wconversion -O3
-SOURCES = *.f
+SOURCES = src/*.f
 TARGET  = fPS.a
 BINDIR	= /usr/local/lib/fPS
 
 all:
-	$(FC) $(FLAGS) -c *.f
+	$(FC) $(FLAGS) -c $(SOURCES)
 	ar rcv $(TARGET) *.o
 	ranlib $(TARGET)
 
