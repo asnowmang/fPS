@@ -24,7 +24,7 @@ writing programs to directly create .ps files.
 Use make to build it or run the following commands. The makefile defaults 
 to /usr/local/lib/fPS/ for installation.
 
-    % gfortran -std=legacy -c *.f
+    % gfortran -std=legacy -Wall -Wextra -Wconversion -O3 -c *.f
     % ar rcv fPS.a *.o
     % ranlib fPS.a
 
