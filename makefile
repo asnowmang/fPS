@@ -12,10 +12,10 @@ all:
 
 install:
 	mkdir $(BINDIR)
-	install README.md $(TARGET) $(BINDIR)/
-
-uninstall:
-	-rm -rf $(BINDIR)
+	install -v README.md $(TARGET) $(BINDIR)
 
 clean:
 	-rm -f *.o $(TARGET)
+
+uninstall:
+	-rm -rf $(BINDIR)
